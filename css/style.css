@@ -520,6 +520,15 @@ ul {
   margin-bottom: 0;
 }
 
+.li_title {
+  margin-top: 20px;
+}
+
+.text {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
 .li_title,
 .text {
   margin-right: 24px;
