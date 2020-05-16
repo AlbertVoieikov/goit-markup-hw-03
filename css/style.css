@@ -257,6 +257,11 @@ ul {
 
 /* our team */
 
+.sec-pad {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-list {
   display: flex;
 }
@@ -391,6 +396,18 @@ ul {
 }
 
 /* portfolio */
+
+.container .srch-btn {
+  display: flex;
+}
+
+.srch-btn-item {
+  align-items: center;
+}
+
+.srch-btn .srch-btn-item + .srch-btn-item {
+  margin-left: 8px;
+}
 
 .button:hover,
 .button:focus {
