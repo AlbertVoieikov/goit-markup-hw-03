@@ -36,7 +36,7 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
   outline: 2px solid grey;
 }
 
@@ -182,11 +182,19 @@ ul {
 
 /* skills */
 
+.skills {
+  border-bottom: 1px solid #ececec;
+}
+
 .skills-list {
   display: flex;
 }
 .skills-list .skills-item + .skills-item {
   margin-left: 29px;
+}
+
+.skills-item {
+  width: calc((100%-60px) / 4);
 }
 
 .skills-title {
@@ -212,10 +220,6 @@ ul {
   color: #757575;
 }
 
-.skills {
-  margin-bottom: 94px;
-}
-
 /* our offers */
 
 .offers-list {
@@ -227,7 +231,6 @@ ul {
 }
 
 .offers {
-  margin-bottom: 94px;
 }
 
 .title {
@@ -253,6 +256,8 @@ ul {
 
   background: rgba(47, 48, 58, 0.8);
   border-radius: 0px 0px 4px 4px;
+
+  width: calc((100%-60px) / 3);
 }
 
 /* our team */
@@ -263,6 +268,7 @@ ul {
 }
 
 .team-list {
+  width: calc((100%-60px) / 4);
   display: flex;
 }
 
@@ -275,12 +281,13 @@ ul {
 }
 
 .team {
-  margin-bottom: 94px;
-
   background: #f5f4fa;
 }
 
 .team-item {
+  /* width: calc((100%-60px) / 4); */
+  /* widows: 270px; */
+
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
@@ -505,11 +512,10 @@ ul {
 }
 
 .portfolio-item {
-  width: 380px;
+  width: calc((100%-60px) / 3);
+  /* width: 370px; */
 
   border: 1px solid #eeeeee;
-
-  /* width: calc((100%-60px) / 3); */
 }
 
 .portfolio-item:not(:nth-child(3n)) {
@@ -529,16 +535,19 @@ ul {
 }
 
 .li_title {
-  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .text {
-  margin-top: 4px;
   margin-bottom: 20px;
 }
 
 .li_title,
 .text {
-  margin-right: 24px;
-  margin-left: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.pf-img {
+  margin-bottom: 20px;
 }
