@@ -447,10 +447,13 @@ img {
 
 /* portfolio */
 
-/* .portfolio {
-  margin-top: 93px;
-  margin-bottom: 94px;
-} */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  /* margin-top: 93px;
+  margin-bottom: 94px; */
+}
 
 .container .srch-btn {
   display: flex;
@@ -462,7 +465,6 @@ img {
 }
 
 .srch-btn {
-  padding-top: 94px;
   margin-bottom: 56px;
 }
 
@@ -511,19 +513,10 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-
-  padding-bottom: 94px;
 }
 
 .portfolio-item {
   display: block;
-
-  /* width: 370px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  overflow: hidden;
-
-  border: 1px solid #eeeeee; */
 }
 
 .portfolio-item:not(:nth-child(3n)) {
